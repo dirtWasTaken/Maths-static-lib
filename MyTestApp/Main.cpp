@@ -4,7 +4,7 @@
 int main()
 {
 	
-	std::cout << "Did it work?";
+	
 
 	system("pause");
 }

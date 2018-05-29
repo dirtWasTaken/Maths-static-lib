@@ -15,11 +15,11 @@ public:
 
 	Vec2 operator + (Vec2 & other);
 	Vec2 operator - (Vec2 & other);
-	Vec2 operator * (float other);
+	Vec2 operator * (float rhs);
+	float pointC(float C_X, float C_Y);
 
 	float magnitudeCalculator(float abs);
 
-	float pointC(float C_X, float C_Y);
 
 	void DotProduct();
 
