@@ -13,23 +13,16 @@ public:
 	{
 		float x = 0.0;
 		float y = 0.0;
-		Vec2(const Vec2 & v) : x(v.x), y(v.y) {}
-		Vec2(const Vec2 * v) : x(v->x), y(v->y) {}
+		Vec2* v = nullptr;
 	};
 
-	
-
-
-	
 	//methods
 	float length() const;
 	float lengthSquared() const;
 	float distance(const Vec2 & v) const;
 	float distanceSquared(const Vec2 & v) const;
-	float DotProduct(const Vec2 & v) const;
+	float dotProduct(const Vec2 & v) const;
 	float crossProduct(const Vec2 & v) const;
-
-
 	Vector2 & normal();
 	Vector2 & normalise();
 

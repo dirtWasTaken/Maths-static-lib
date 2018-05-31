@@ -7,7 +7,7 @@ Vector2::Vector2() {}
 
 Vector2::~Vector2() {}
 
-//METHODS
+////METHODS
 float Vector2::length() const
 {
 }
@@ -20,7 +20,7 @@ float Vector2::distance(const Vec2 & v) const
 float Vector2::distanceSquared(const Vec2 & v) const
 {
 }
-float Vector2::DotProduct(const Vec2 & v) const
+float Vector2::dotProduct(const Vec2 & v) const
 {
 }
 float Vector2::crossProduct(const Vec2 & v) const 
@@ -28,6 +28,7 @@ float Vector2::crossProduct(const Vec2 & v) const
 }
 Vector2 & Vector2::normal()
 {
+
 }
 Vector2 & Vector2::normalise()
 {
